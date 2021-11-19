@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C964CC15274323010037CEAF /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = C964CC14274323010037CEAF /* Person.swift */; };
+		C964CC1727432BD20037CEAF /* PersonDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C964CC1627432BD20037CEAF /* PersonDescriptor.swift */; };
 		C9F8549D2740BC2500A81410 /* Elitech0App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F8549C2740BC2500A81410 /* Elitech0App.swift */; };
 		C9F8549F2740BC2500A81410 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F8549E2740BC2500A81410 /* ContentView.swift */; };
 		C9F854A12740BC2600A81410 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9F854A02740BC2600A81410 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C964CC14274323010037CEAF /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		C964CC1627432BD20037CEAF /* PersonDescriptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDescriptor.swift; sourceTree = "<group>"; };
 		C9F854992740BC2400A81410 /* Elitech0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Elitech0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9F8549C2740BC2500A81410 /* Elitech0App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elitech0App.swift; sourceTree = "<group>"; };
 		C9F8549E2740BC2500A81410 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +61,8 @@
 				C9F854A02740BC2600A81410 /* Assets.xcassets */,
 				C9F854A52740BC2600A81410 /* Info.plist */,
 				C9F854A22740BC2600A81410 /* Preview Content */,
+				C964CC14274323010037CEAF /* Person.swift */,
+				C964CC1627432BD20037CEAF /* PersonDescriptor.swift */,
 			);
 			path = Elitech0;
 			sourceTree = "<group>";
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C964CC15274323010037CEAF /* Person.swift in Sources */,
 				C9F8549F2740BC2500A81410 /* ContentView.swift in Sources */,
 				C9F8549D2740BC2500A81410 /* Elitech0App.swift in Sources */,
+				C964CC1727432BD20037CEAF /* PersonDescriptor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
